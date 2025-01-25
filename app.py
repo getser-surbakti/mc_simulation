@@ -3,7 +3,19 @@ import numpy as np
 import plotly.graph_objs as go
 
 # Streamlit app interface
-st.markdown("<h1 style='text-align: center; color:rgb(2, 3, 129);'>Simulasikan Harga Saham Pilihanmu disini</h1>", unsafe_allow_html=True)
+st.markdown("""
+    <h1 style='
+        text-align: center; 
+        color: #ffffff; 
+        background: rgb(2, 3, 129); 
+        padding: 20px; 
+        border-radius: 10px; 
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    '>
+    Simulasikan Harga Saham Pilihanmu disini
+    </h1>
+    """, unsafe_allow_html=True)
+
 st.markdown("<h2 style='text-align: center;font-size:20px; color: rgba(4, 120, 155, 0.95);'>Monte Carlo Simulation - Brownian Motion</h2>", unsafe_allow_html=True)
 st.markdown("<p style='text-align: justify; color: #555;'>Tool ini adalah aplikasi untuk memprediksi pergerakan harga saham menggunakan simulasi Monte Carlo dan Gerak Brown. Pengguna dapat memasukkan parameter seperti harga saham sekarang, estimasi return saham, volatilitas, dan jangka waktu dan estimasi tingkat inflasi, lalu melihat proyeksi harga saham di masa depan dalam bentuk grafik.</p>", unsafe_allow_html=True)
 
